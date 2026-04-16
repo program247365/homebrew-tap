@@ -1,8 +1,8 @@
 class Looper < Formula
   desc "CLI tool that plays a song on loop with a ratatui TUI and FFT visualizer"
   homepage "https://github.com/program247365/looper"
-  url "https://github.com/program247365/looper/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "85ed55e771b3fc4604f282f0197fb61ee80a97667194584aa127fbc48cfa2112"
+  url "https://github.com/program247365/looper/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "7743ba44549148e9d2fb83a03e30187542138a7a080a2d3c9ab3cf79d4c0786f"
   license "MIT"
   head "https://github.com/program247365/looper.git", branch: "main"
 
