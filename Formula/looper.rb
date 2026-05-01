@@ -1,15 +1,30 @@
 class Looper < Formula
   desc "CLI tool that plays a song on loop with a ratatui TUI and FFT visualizer"
   homepage "https://github.com/program247365/looper"
-  url "https://github.com/program247365/looper/archive/refs/tags/v0.5.2.tar.gz"
-  sha256 "73e4ac3e53ed7751bf00dd8f8c6e9ef4ae37fe2cb36cdd2f50bd9542f231bedb"
+  version "0.5.3"
   license "MIT"
-  head "https://github.com/program247365/looper.git", branch: "main"
 
-  depends_on "rust" => :build
+  on_macos do
+    on_arm do
+      url "https://github.com/program247365/looper/releases/download/v0.5.3/looper-aarch64-apple-darwin.tar.gz"
+      sha256 "fb9a1765a81ae05ce04b4f1ba5acb04c0c61f81780e04833dfe1b15ef81a6b84"
+    end
+  end
+
+  depends_on "ffmpeg"
+  depends_on "yt-dlp"
+
+  head do
+    url "https://github.com/program247365/looper.git", branch: "main"
+    depends_on "rust" => :build
+  end
 
   def install
-    system "cargo", "install", *std_cargo_args
+    if build.head?
+      system "cargo", "install", *std_cargo_args
+    else
+      bin.install "looper"
+    end
   end
 
   test do
