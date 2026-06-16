@@ -1,13 +1,13 @@
 class Looper < Formula
   desc "CLI tool that plays a song on loop with a ratatui TUI and FFT visualizer"
   homepage "https://github.com/program247365/looper"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/program247365/looper/releases/download/v0.7.0/looper-aarch64-apple-darwin.tar.gz"
-      sha256 "5840acea2060e455ce007ceaf8e8ac43df061ede9d87a6a86a4dfe8325d84900"
+      url "https://github.com/program247365/looper/releases/download/v0.8.0/looper-aarch64-apple-darwin.tar.gz"
+      sha256 "db84c6b5233dba2382db550e93bd0ef68a17d5bbe7eefd030001a087a979b2ae"
     end
   end
 
