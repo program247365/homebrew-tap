@@ -2,7 +2,7 @@ class Hackertuah < Formula
   desc "Terminal UI for browsing Hacker News"
   homepage "https://github.com/program247365/hackertuah"
   url "https://github.com/program247365/hackertuah/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "02443117bbf925a2d2b219b6605ac834582ef381e5c6a6fb97a73c923c9d75bc"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
   license "MIT"
   head "https://github.com/program247365/hackertuah.git", branch: "main"
 
