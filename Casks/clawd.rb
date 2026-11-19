@@ -1,6 +1,6 @@
 cask "clawd" do
-  version "0.1.0"
-  sha256 "93480ee8e456ab50028d7c45f3ce17bb610b50d994946455703d64e5a229de8b"
+  version "0.2.0"
+  sha256 "9a1ad677cc24a164f51a72329d1c5ab87872042ccf13ec6e79a6a774bb1536c0"
 
   url "https://github.com/program247365/clawd/releases/download/v#{version}/Clawd-#{version}.dmg",
       verified: "github.com/program247365/clawd/"
