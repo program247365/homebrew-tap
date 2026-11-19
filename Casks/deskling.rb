@@ -1,8 +1,8 @@
 cask "deskling" do
-  version "0.3.1"
-  sha256 "01c245a0bef85abcbb2846326961e3ccb020688658bd12a6f4d697bafda76bf2"
+  version "0.3.2"
+  sha256 "b42d7e1e521537a4350ca64af7edd800290a8b5e9d53d7d345acc42fecd136ab"
 
-  url "https://github.com/program247365/clawd/releases/download/v#{version}/Deskling-#{version}.dmg"
+  url "https://github.com/program247365/deskling/releases/download/v#{version}/Deskling-#{version}.dmg"
   name "Deskling"
   desc "Pixel characters that walk your desktop and react to your coding agents"
   homepage "https://deskling.kbr.sh/"
