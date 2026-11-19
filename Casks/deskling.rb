@@ -1,12 +1,14 @@
 cask "deskling" do
-  version "0.5.0"
-  sha256 "61aea1dcf76426117c842adc8cf4bad4b2d94c38123ea95ab9300abe43e0c880"
+  version "0.6.0"
+  sha256 "ac2233cdca2de95f38c223ee3618f0f0fbddc42232f68c26a130df6f86949c0b"
 
   url "https://github.com/program247365/deskling/releases/download/v#{version}/Deskling-#{version}.dmg"
   name "Deskling"
   desc "Pixel characters that walk your desktop and react to your coding agents"
   homepage "https://deskling.kbr.sh/"
 
+  # The app updates itself (Sparkle); brew upgrade leaves it be unless asked with --greedy.
+  auto_updates true
   depends_on macos: :sonoma
 
   app "Deskling.app"
