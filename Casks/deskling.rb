@@ -1,11 +1,11 @@
 cask "deskling" do
-  version "0.3.0"
-  sha256 "3e238fef268a536f2d9b79cd06bca09f9b7582e574b25fde66ddc45fe846c5a1"
+  version "0.3.1"
+  sha256 "01c245a0bef85abcbb2846326961e3ccb020688658bd12a6f4d697bafda76bf2"
 
   url "https://github.com/program247365/clawd/releases/download/v#{version}/Deskling-#{version}.dmg"
   name "Deskling"
   desc "Pixel characters that walk your desktop and react to your coding agents"
-  homepage "https://clawd.kbr.sh/"
+  homepage "https://deskling.kbr.sh/"
 
   depends_on macos: :sonoma
 
