@@ -1,6 +1,6 @@
 cask "deskling" do
-  version "0.13.0"
-  sha256 "e492711a3e8576c40ac69db26a097ae1811ff07d9105a6533888ec790ee6fad1"
+  version "0.14.0"
+  sha256 "3c6ca54ac976df39234763e065f622892df76f4dfb9330a2e0aa5cc5c8f409f9"
 
   url "https://github.com/program247365/deskling/releases/download/v#{version}/Deskling-#{version}.dmg"
   name "Deskling"
