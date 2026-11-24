@@ -1,8 +1,8 @@
 class Agentd < Formula
   desc "Archive, redact, sync and browse your coding-agent sessions"
   homepage "https://github.com/program247365/agentd"
-  url "https://github.com/program247365/agentd/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "6c1d82099a1b4dded688cb387318db99018c53d41b16076cc4db386eea3dfcbd"
+  url "https://github.com/program247365/agentd/archive/refs/tags/v0.3.3.tar.gz"
+  sha256 "827a4f34a6d4aa42d6bdff1938e63918b7c1ff3f2199e594b22066aac6919179"
   license "MIT"
   head "https://github.com/program247365/agentd.git", branch: "main"
 
